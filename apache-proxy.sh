@@ -25,7 +25,7 @@
 
         ProxyPreserveHost On
         ProxyRequests off
-       ProxyPass / http://localhost:3000/
+        ProxyPass / http://localhost:3000/
         ProxyPassReverse / http://localhost:3000/
 
         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
